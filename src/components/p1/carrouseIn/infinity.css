@@ -1,0 +1,39 @@
+.infinity-carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #9d8ae9;/* ou transparente */
+    padding: 30px 0;
+  }
+  
+  .infinity-carousel-track {
+    display: flex;
+    width: calc(200%); /* o dobro dos itens */
+    animation: scroll 20s linear infinite;
+  }
+  
+  .infinity-carousel-item {
+    flex: 0 0 auto;
+    width: 150px; /* tamanho do item */
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .infinity-carousel-item img {
+    width: 73px;
+  
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  /* Animação do carrossel */
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

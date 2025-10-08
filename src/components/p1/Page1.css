@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background: linear-gradient(180deg, #fffafc 0%, #fdf0f5 100%);
+  overflow-x: hidden;
+}
+
+.divTittle h1 {
+  font-family: "Pacifico", cursive;
+  color: #623381;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.buttonIcon{
+  position: relative;
+  top: 8px;
+  left: 75px;
+  margin-left: 25px;
+}
+
+.order-button {
+  background: linear-gradient(135deg, #ff9acb, #f88fbc);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(255, 126, 179, 0.3);
+  color: white;
+}
+
+.order-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ffb5d8, #f9a5c5);
+}
+
+/* Ícones dos produtos */
+.divIcon img {
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.divIcon img:hover {
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+.footerClass {
+  background-color: #d9c3e6;
+  padding: 20px;
+  text-align: center;
+  color: #623381;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.footerClass p {
+  margin: 0;
+}
+
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .divTittle h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .divTittle p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .order-button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
