@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sugarwave/static/css/main.2219d443.css",
+    "main.js": "/sugarwave/static/js/main.bc5c9c5b.js",
+    "static/media/carrousel3.png": "/sugarwave/static/media/carrousel3.db9557ed428d2b1d818b.png",
+    "static/media/carrousel2.png": "/sugarwave/static/media/carrousel2.dcd1f6f5192860a34b07.png",
+    "static/media/PKpop.png": "/sugarwave/static/media/PKpop.edd7c5f2286b1f2a0064.png",
+    "static/media/Ptradicional.png": "/sugarwave/static/media/Ptradicional.81c6da30cce26bf85d80.png",
+    "static/media/PNutella.png": "/sugarwave/static/media/PNutella.d2355a4632e7e2eea94d.png",
+    "static/media/PDoceLeite.png": "/sugarwave/static/media/PDoceLeite.695a48cd73b54ec539f6.png",
+    "static/media/honey.jpeg": "/sugarwave/static/media/honey.15a0f911f5f15ef95103.jpeg",
+    "static/media/logo.jpeg": "/sugarwave/static/media/logo.c50127941d74c96da7b0.jpeg",
+    "index.html": "/sugarwave/index.html",
+    "main.2219d443.css.map": "/sugarwave/static/css/main.2219d443.css.map",
+    "main.bc5c9c5b.js.map": "/sugarwave/static/js/main.bc5c9c5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2219d443.css",
+    "static/js/main.bc5c9c5b.js"
+  ]
+}
