@@ -86,7 +86,8 @@ function Home() {
               <Icon imagem={PMel}/>
               <Button 
                     className="order-button buttonIcon" 
-                    href="https://wa.me/5516000000000" 
+                    href="https://wa.me/5516997540762?text=Olá,+quero+fazer+um+pedido+,+adoraria+experimentar+o+sabor+tradicional!
+" 
                     target="_blank"
                   >
                     <FaWhatsapp style={{ marginLeft: '8px' }} /> Tradicional
@@ -98,7 +99,8 @@ function Home() {
               <Icon imagem={PKpop}/>
               <Button 
                     className="order-button buttonIcon" 
-                    href="https://wa.me/5516000000000" 
+                    href="https://wa.me/5516997540762?text=Olá,+quero+fazer+um+pedido+,+adoraria+experimentar+o+sabor+de+brigadeiro!
+" 
                     target="_blank"
                   >
                     <FaWhatsapp style={{ marginRight: '8px' }} />Brigadeiro
@@ -111,7 +113,8 @@ function Home() {
               <Icon imagem={PNut}/>
               <Button 
                     className="order-button buttonIcon" 
-                    href="https://wa.me/5516000000000" 
+                    href="https://wa.me/5516997540762?text=Olá,+quero+fazer+um+pedido+,+adoraria+experimentar+o+sabor+de+nutella!
+" 
                     target="_blank"
                   >
                     <FaWhatsapp style={{ marginRight: '8px' }} />Nutella
@@ -123,7 +126,8 @@ function Home() {
               <Icon imagem={PDl}/>
               <Button 
                     className="order-button buttonIcon" 
-                    href="https://wa.me/5516000000000" 
+                    href="https://wa.me/5516997540762?text=Olá,+quero+fazer+um+pedido+,+adoraria+experimentar+o+sabor+de+doce+de+leite!
+" 
                     target="_blank"
                   >
                     <FaWhatsapp style={{ marginRight: '8px' }} /> Doce de leite
