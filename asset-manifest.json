@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sugarwave/static/css/main.2219d443.css",
-    "main.js": "/sugarwave/static/js/main.bc5c9c5b.js",
+    "main.js": "/sugarwave/static/js/main.f5e96314.js",
     "static/media/carrousel3.png": "/sugarwave/static/media/carrousel3.db9557ed428d2b1d818b.png",
     "static/media/carrousel2.png": "/sugarwave/static/media/carrousel2.dcd1f6f5192860a34b07.png",
     "static/media/PKpop.png": "/sugarwave/static/media/PKpop.edd7c5f2286b1f2a0064.png",
@@ -12,10 +12,10 @@
     "static/media/logo.jpeg": "/sugarwave/static/media/logo.c50127941d74c96da7b0.jpeg",
     "index.html": "/sugarwave/index.html",
     "main.2219d443.css.map": "/sugarwave/static/css/main.2219d443.css.map",
-    "main.bc5c9c5b.js.map": "/sugarwave/static/js/main.bc5c9c5b.js.map"
+    "main.f5e96314.js.map": "/sugarwave/static/js/main.f5e96314.js.map"
   },
   "entrypoints": [
     "static/css/main.2219d443.css",
-    "static/js/main.bc5c9c5b.js"
+    "static/js/main.f5e96314.js"
   ]
 }
