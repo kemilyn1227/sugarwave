@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { AuthProvider } from "./components/Login/authContext";
@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <AuthProvider>
-    <BrowserRouter basename="sugarwave">
+    < HashRouter>
       <Routes>
 
         {/* Página de login sempre acessível */}
@@ -59,6 +59,6 @@ root.render(
         />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </ HashRouter>
   </AuthProvider>
 );
