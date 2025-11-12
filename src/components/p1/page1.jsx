@@ -143,12 +143,6 @@ function Home() {
 
        </div>
         
-        <Wave2 position="top" color=" #9d8ae9" height="120px " offset={`${offset}px`}/>
-        <div className='footerClass div3'>
-       
-          <p> Whatsapp: (16) 00000-0000  </p>
-          <p>@sugar_waves</p>
-        </div>
 
     </div>
 );

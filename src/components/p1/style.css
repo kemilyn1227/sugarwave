@@ -139,13 +139,15 @@
 
 .div2 p{
     color: black;
-    margin-top: 9px;
     margin-left: 196px;
     width: 101px;
-    height: 2em;
+    height: 90% ;
     background-color: #7b4798;
     border-radius: 50px;
 
+}
+.footerColor{
+  background: linear-gradient(to right, #ad47a1, #5b3d7f);
 }
 
 .div3{

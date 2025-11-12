@@ -1,15 +1,64 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import P1 from './components/p1/page1';
-import Nav from './components/navBar'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { AuthProvider } from "./components/Login/authContext";
+import ProtectedRoute from "./components/Login/protectedRoute";
+
+import NavBar from "./components/navBar";
+import Home from "./components/p1/page1";
+import Cardapio from "./components/cardapio/Cardapio";
+import QuemSomos from "./components/quemSomos/apresentacao";
+import Login from "./components/Login/login";
+import Footer from "./components/Footer"
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <Nav/>
-    <P1/>
-    
-  </React.StrictMode>
-);
+  <AuthProvider>
+    <BrowserRouter basename="sugarwave">
+      <Routes>
 
+        {/* Página de login sempre acessível */}
+        <Route path="/login" element={<Login />} />
+
+        {/* Todas as páginas abaixo são protegidas */}
+        <Route element={<ProtectedRoute/>}>
+
+        <Route path="/" element={
+          <>
+          <NavBar/>
+          <Home/>
+          <Footer/>
+          </>
+        }
+        />
+
+        <Route 
+        path="/cardapio"
+        element={
+          <>
+          <NavBar/>
+          <Cardapio/>
+          <Footer/>
+          
+
+          </>
+        }/>
+
+        <Route
+        path="/quem-somos"
+        element={
+          <>
+          <NavBar/>
+          <QuemSomos/>
+          <Footer className='fixed-bottom'/>
+          </>
+        }
+        />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </AuthProvider>
+);
