@@ -23,6 +23,8 @@ function Home() {
 
   const [offsetDiv2, setOffsetdiv2] = useState(209);
 
+  const [offsetDiv3, setOffsetdiv3] = useState(574);
+
     useEffect(() => {
       const handleResize = () => {
         if (window.innerWidth < 480) setOffset(150);
@@ -38,9 +40,18 @@ function Home() {
 
     useEffect(() => {
       const handleResize = () => {
-        if (window.innerWidth < 480) setOffsetdiv2(150);
-        else if (window.innerWidth < 768) setOffsetdiv2(76);
-        else setOffsetdiv2(222);
+        if (window.innerWidth < 480){
+          setOffsetdiv2(570);
+          setOffsetdiv3(704);
+        }
+        else if (window.innerWidth < 768) {
+          setOffsetdiv2(74);
+           setOffsetdiv3(693);
+          }
+        else {
+          setOffsetdiv2(222);
+          setOffsetdiv3(574);
+        };
       };
 
       window.addEventListener("resize", handleResize);
@@ -49,7 +60,7 @@ function Home() {
       return () => window.removeEventListener("resize", handleResize);
     }, []);
     return (
-    <div >
+    <div>
 
         <Wave position="top" color="rgb(213, 185, 215)" height="120px" offset="31px" />
 
@@ -79,6 +90,7 @@ function Home() {
       
 
         <Wave position="bottom" color="#9d8ae9" offset={`${offsetDiv2}px`}/>
+        
         <div className='divIcon div2'>
 
             <section>
@@ -136,6 +148,7 @@ function Home() {
             </section>
 
         </div>
+        <Wave position="top" color="#9d8ae9" offset={`${offsetDiv3}px`}/>
 
        <div className='div2Resp'>
 

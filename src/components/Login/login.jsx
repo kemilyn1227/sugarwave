@@ -5,6 +5,7 @@ import { useAuth } from "./authContext";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
+const redirectUri = "https://kemilyn1227.github.io/sugarwave";
 const Login = () => {
 
 

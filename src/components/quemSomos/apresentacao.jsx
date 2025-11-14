@@ -21,20 +21,23 @@ export default function Apresentacao() {
               <Col md={8}>
                 <h2>Gabriela Cristina</h2>
                 <p>
-                  Olá, meu nome é Fulano da Silva. Sou vendedor especializado
-                  em produtos de X, com anos de experiência em oferecer qualidade
-                  e confiança aos meus clientes.  
+                  Olá! Meu nome é Gabriela Cristina, sou vendedora autônoma e 
+                  apaixonada pelo mundo dos doces. Comecei recentemente meu negócio 
+                  com o objetivo de adoçar momentos especiais e levar mais sabor e carinho para o 
+                  dia a dia das pessoas. Cada doce é feito com atenção aos detalhes, ingredientes de 
+                  qualidade e muito amor. 
                 </p>
                 <p>
-                  Faço questão de atenção nos detalhes e na satisfação de cada
-                  cliente. Estou à disposição para qualquer dúvida ou suporte.
+                  Valorizo a satisfação de cada cliente. Seja para presentear
+                  alguém ou se 
+                  presentear, aqui você encontra o doce ideal para cada ocasião! 
                 </p>
                 <div className="mt-3">
-                  <Button variant="primary" className="me-2">
+                  <Button variant="primary" className="me-2" href="https://wa.me/5516997540762?text=Olá,+gostaria+de+saber+mais+sobre+o+sugarWaves!">
                     Contato
                   </Button>
                   <Button variant="outline-secondary">
-                    Ver mais
+                    instagram 
                   </Button>
                 </div>
               </Col>

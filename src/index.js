@@ -12,6 +12,7 @@ import Cardapio from "./components/cardapio/Cardapio";
 import QuemSomos from "./components/quemSomos/apresentacao";
 import Login from "./components/Login/login";
 import Footer from "./components/Footer"
+import HelpButton from "./components/ajuda/HelpButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -30,6 +31,7 @@ root.render(
           <>
           <NavBar/>
           <Home/>
+          <HelpButton/>
           <Footer/>
           </>
         }
@@ -41,6 +43,7 @@ root.render(
           <>
           <NavBar/>
           <Cardapio/>
+          <HelpButton/>
           <Footer/>
           
 
@@ -52,7 +55,9 @@ root.render(
         element={
           <>
           <NavBar/>
+          <HelpButton/>
           <QuemSomos/>
+         
           <Footer className='fixed-bottom'/>
           </>
         }
