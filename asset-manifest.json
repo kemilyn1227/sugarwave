@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/sugarwave/static/css/main.7b4ea758.css",
-    "main.js": "/sugarwave/static/js/main.8d896a3b.js",
+    "main.css": "/sugarwave/static/css/main.0b7c3908.css",
+    "main.js": "/sugarwave/static/js/main.4a0dff23.js",
     "static/media/carrousel3.png": "/sugarwave/static/media/carrousel3.db9557ed428d2b1d818b.png",
     "static/media/carrousel2.png": "/sugarwave/static/media/carrousel2.dcd1f6f5192860a34b07.png",
+    "static/media/cliente2H.png": "/sugarwave/static/media/cliente2H.43df4670d41b57076c1c.png",
     "static/media/PKpop.png": "/sugarwave/static/media/PKpop.edd7c5f2286b1f2a0064.png",
+    "static/media/cliente3M.png": "/sugarwave/static/media/cliente3M.6ab7443ef5d6f03461da.png",
     "static/media/Ptradicional.png": "/sugarwave/static/media/Ptradicional.81c6da30cce26bf85d80.png",
-    "static/media/saborBrigadeiroAmargo.png": "/sugarwave/static/media/saborBrigadeiroAmargo.6a7a537e16e535f3adcf.png",
-    "static/media/saborBrigadeiro.png": "/sugarwave/static/media/saborBrigadeiro.4ca33277a614f335b1b7.png",
-    "static/media/saborNutella.png": "/sugarwave/static/media/saborNutella.46b832f8b3fe3017d88b.png",
+    "static/media/cliente2M.png": "/sugarwave/static/media/cliente2M.0a1ece9f5cfc3604c8f3.png",
+    "static/media/cliente1H.png": "/sugarwave/static/media/cliente1H.b726c18e219c89239b15.png",
+    "static/media/novpAmargo.png": "/sugarwave/static/media/novpAmargo.df4810101e918409f11f.png",
+    "static/media/novoBrigadeiro.png": "/sugarwave/static/media/novoBrigadeiro.bb707269df08c8bc3816.png",
+    "static/media/cliente1M.png": "/sugarwave/static/media/cliente1M.728960c987055484d1e5.png",
+    "static/media/novoNutella.png": "/sugarwave/static/media/novoNutella.52a4a10da606061d5080.png",
     "static/media/saborDL.png": "/sugarwave/static/media/saborDL.11d82e12e9f6ec873451.png",
     "static/media/PNutella.png": "/sugarwave/static/media/PNutella.d2355a4632e7e2eea94d.png",
     "static/media/saborDCNozes.png": "/sugarwave/static/media/saborDCNozes.7f49f91b2b95c66ce6ba.png",
@@ -20,11 +25,11 @@
     "static/media/gabriela.jpeg": "/sugarwave/static/media/gabriela.ca0d68c084d7638cf109.jpeg",
     "static/media/logo.jpeg": "/sugarwave/static/media/logo.c50127941d74c96da7b0.jpeg",
     "index.html": "/sugarwave/index.html",
-    "main.7b4ea758.css.map": "/sugarwave/static/css/main.7b4ea758.css.map",
-    "main.8d896a3b.js.map": "/sugarwave/static/js/main.8d896a3b.js.map"
+    "main.0b7c3908.css.map": "/sugarwave/static/css/main.0b7c3908.css.map",
+    "main.4a0dff23.js.map": "/sugarwave/static/js/main.4a0dff23.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b4ea758.css",
-    "static/js/main.8d896a3b.js"
+    "static/css/main.0b7c3908.css",
+    "static/js/main.4a0dff23.js"
   ]
 }
