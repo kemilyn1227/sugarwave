@@ -8,11 +8,13 @@ import ProtectedRoute from "./components/Login/protectedRoute";
 
 import NavBar from "./components/navBar";
 import Home from "./components/p1/page1";
+import PedidoPaoDeMel from "./components/p1/form/PedidoPaoDeMel";
 import Cardapio from "./components/cardapio/Cardapio";
 import QuemSomos from "./components/quemSomos/apresentacao";
 import Login from "./components/Login/login";
 import Footer from "./components/Footer"
 import HelpButton from "./components/ajuda/HelpButton";
+import ComentariosClientes from "./components/quemSomos/comentariosClientes"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -57,11 +59,25 @@ root.render(
           <NavBar/>
           <HelpButton/>
           <QuemSomos/>
+          <ComentariosClientes/>
          
           <Footer className='fixed-bottom'/>
           </>
         }
         />
+
+
+      <Route 
+        path="/pedido" 
+        element={
+          <>
+            <NavBar />
+            <PedidoPaoDeMel />
+            <HelpButton />
+            <Footer />
+          </>
+        }
+      />
         </Route>
       </Routes>
     </ HashRouter>

@@ -1,0 +1,30 @@
+.comentarios-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .comentario-item {
+    display: flex;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comentario-item:last-child {
+
+    border-bottom: none;
+  }
+  
+  .comentario-foto {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .titulo-comentarios {
+    font-weight: bold;
+    color: #5d3891;
+  }
+  

@@ -73,7 +73,7 @@ function Home() {
                 <p>Doces que encantam como sua música favorita de K-pop</p>
                 <Button 
                     className="order-button" 
-                    href="https://wa.me/5516000000000" 
+                    href="#/pedido" 
                     target="_blank"
                   >
                     <FaWhatsapp style={{ marginRight: '8px' }} /> Peça já!

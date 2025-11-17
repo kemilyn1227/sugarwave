@@ -11,12 +11,14 @@ export default function Apresentacao() {
           <Card className="shadow-sm p-4">
             <Row className="g-3">
               <Col md={4} className="d-flex justify-content-center">
+              <div className="image-wrapper">
                 <Image
                   src={Gabriela}
-                  roundedCircle
-                  fluid
                   alt="Foto do Vendedor"
+                  className="profile-image"
                 />
+              </div>
+
               </Col>
               <Col md={8}>
                 <h2>Gabriela Cristina</h2>
